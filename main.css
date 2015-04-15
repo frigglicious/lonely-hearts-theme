@@ -1,0 +1,280 @@
+ #nav {
+            position: relative;
+			text-align: center;
+			text-transform: uppercase;
+			margin: 0 auto;
+			display: block;
+        }
+        #nav ul li {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+        #nav a {
+            text-decoration: none;
+            font-family: "Verdana", "Calibri", sans-serif;
+            text-transform: uppercase;
+            font-size: 10px;
+            transition: color 0.5s ease-in-out;
+			-webkit-transition: color 0.5s ease-in-out;
+			-o-transition: color 0.5s ease-in-out;
+			-moz-transition: color 0.5s ease-in-out;
+        }
+        #nav a:hover {
+            color: #ECF0F1;
+			transition: color 0.5s ease-in-out;
+			-webkit-transition: color 0.5s ease-in-out;
+			-o-transition: color 0.5s ease-in-out;
+			-moz-transition: color 0.5s ease-in-out;
+        }
+        figcaption.caption {
+            padding-bottom: 13px;
+        }
+        
+		
+		.title-wrapper {
+		    color: #FFF;
+		    margin-top: -13px;
+		    z-index: 2;
+		    font-size: 100%;
+		}
+		.title-wrapper p {
+		    font-family: Helvetica, Arial, sans-serif;
+		    font-weight: bold;
+		}
+		.title-wrapper a {
+		    font-weight: normal;
+		    float: right;
+		    color: #C0392B
+		}
+		.post-content a:active {
+		    color: #C0392B;
+		}
+		.post-content {
+		    background-color: #FFFFFF;
+		}
+		
+		#post-date {
+		    display: none;
+		    background-color: #222323;
+		    color: rgb(167, 167, 167);
+		    height: 26px;
+		    font-size: 10px;
+		    font-weight: bold;
+		}
+		
+		footer section {
+		    vertical-align: middle;
+		}
+	
+		header {
+			width: 100px;
+			position: fixed;
+			left: 10%;
+			top: 250px;
+		}
+		
+		body {
+			/*background: #2f3030;*/
+			background-image: url(http://static.tumblr.com/ikpmmiw/M4Snmd4s4/stardust.png);
+			background-attachment: fixed;
+		}
+		
+		::selection {
+			color: #1ABC9C;
+		}
+		
+		#posts {
+		    width: 50%;
+		    margin-left: 500px;
+		    
+		}
+		.post-content {
+		    border-radius: 3px;
+		    box-shadow: 3px rgba(0,0,0,0.5);
+		}
+		.asker strong, 
+		.asker a {
+		    font-size: 14px;
+		    font-family: Calibri, sans-serif;
+		    text-transform: uppercase;
+		    color: #C0392B;
+		    margin-bottom: -.25em
+		}
+		.blog-title {
+		    
+			font-family: "Georgia";
+			font-size: 175%;
+			font-weight: {TitleFontWeight};
+			width: 100%;
+		}
+		
+		.post-wrapper.clearfix {
+		    padding-bottom: 13px;
+			border-radius: 0;
+			width: 100%;
+		}
+		
+		.blog-title a,
+		.description,
+		.search-header {
+			color: #ECF0F1;
+			transition: color 0.5s ease-in-out;
+			-webkit-transition: color 0.5s ease-in-out;
+			-o-transition: color 0.5s ease-in-out;
+			-moz-transition: color 0.5s ease-in-out;
+		}
+		
+		#header-links {
+			font-family: Calibri, sans-serif;
+			position: relative;
+			text-align: center;
+			text-transform: uppercase;
+			margin: 0 auto;
+			display: block;
+			font-size: 14px;
+		}
+
+		#header-links a {
+			transition: color 0.5s ease-in-out;
+			-webkit-transition: color 0.5s ease-in-out;
+			-o-transition: color 0.5s ease-in-out;
+			-moz-transition: color 0.5s ease-in-out;
+			display: block;
+			text-decoration: none;
+		}
+		#header-links a:hover {
+		    color: #ECF0F1;
+		    transition: color 0.75s ease-in-out;
+		    -webkit-transition: color 0.75s ease-in-out;
+		    -moz-transition: color 0.75s ease-in-out;
+		    -o-transition: color 0.75s ease-in-out;
+		}
+		.blog-title a:hover {
+			color: #C0392B;
+			transition: color .75s ease-in-out;
+			-webkit-transition: color .75s ease-in-out;
+			-o-transition: color .75s ease-in-out;
+			-moz-transition: color .75s ease-in-out;
+		}
+		
+		a {
+			color: #E74C3C;
+		}
+		
+		#pagination a,
+		.exposed-nav-wrapper li a {
+			color: #E74C3C;
+		}
+		
+		.loader .loader-bar {
+			background-color: #ECF0F1;
+		}
+		
+		a.tumblr_blog {
+			color: #C0392B;
+			text-decoration: none;
+		}
+		
+		a.tumblr_blog:hover {
+			text-decoration: underline;
+		}
+		
+		a.meta-item.reblog-link {
+			color: #C0392B;
+		}
+		
+		.link-wrapper {
+			background-color: #E74C3C;
+			border-radius: 0;
+			width: 100%;
+		}
+		
+		.photo-wrapper {
+			border-radius: 0;
+			width: 100%;
+		}
+		
+		.post-footer {
+			background-color: #222323;
+			color: #ecf0f1;
+		
+		}
+		
+		.meta-item.tag-link {
+		    margin-top: 13px;
+			color: #C0392B;
+			transition: color .5s ease;
+			-webkit-transition: color .5s ease;
+			-o-transition: color .5s ease;
+			-moz-transition: color .5s ease;
+		}
+		.meta-item.tag-link:hover {
+		    color: #ECF0F1;
+		    transition: color .5s ease;
+		    -webkit-transition: color .5s ease;
+		    -o-transition: color .5s ease;
+		    -moz-transition: color .5s ease;
+		}
+		.meta-item.post-notes {
+		    margin-top: 13px;
+			transition: color .5s ease;
+			-webkit-transition: color .5s ease;
+			-o-transition: color .5s ease;
+			-moz-transition: color .5s ease;
+		}
+		.meta-item.post-notes:hover {
+		    color: #ECF0F1;
+		    transition: color .5s ease;
+		    -webkit-transition: color .5s ease;
+		    -o-transition: color .5s ease;
+		    -moz-transition: color .5s ease;
+		}
+		
+		.user-avatar {
+			background-color: #2f3030;
+			border-color: #2f3030;
+			border-radius: 0;
+		}
+		
+		#theme-info {
+			text-align: center;
+			margin-bottom:5%;
+			margin-top: auto;
+		}
+		#theme-info a {
+		    color: #8c8c8c;
+		    text-decoration: none;
+		    transition: color 0.75s ease-in-out;
+		    -webkit-transition: color 0.75s ease-in-out;
+		    -o-transition: color 0.75s ease-in-out;
+		    -moz-transition: color 0.75s ease-in-out;
+		}
+		#theme-info a:hover {
+		    color:#c0392b;
+		    transition: color 0.75s ease-in-out;
+		    -webkit-transition: color 0.75s ease-in-out;
+		    -o-transition: color 0.75s ease-in-out;
+		    -moz-transition: color 0.75s ease-in-out;
+		}
+		.avatar-style-square .user-avatar {
+			-webkit-box-shadow: 0 0 0 4px #2f3030;
+			-moz-box-shadow: 0 0 0 4px #2f3030;
+			box-shadow: 0 0 0 4px #2f3030;
+		}
+		
+		.no-header-image .selector .bar-icon,
+		.contain-header-image .selector .bar-icon {
+			background: #E74C3C;
+		}
+		
+		.no-header-image .search-only .selector .icon,
+		.contain-header-image .search-only .selector .icon {
+			color: #E74C3C;
+		}
+		
+		.avatar-style-square .user-avatar {
+			-webkit-box-shadow: 0 0 0 3px #2f3030;
+			-moz-box-shadow: 0 0 0 3px #2f3030;
+			box-shadow: 0 0 0 3px #2f3030;
+		}
